@@ -6,7 +6,4 @@ export const useTestStore = defineStore({
   state: () => ({
     enumValue: ENUM_TEST.TEST,
   }),
-  persist: {
-    storage: localStorage,
-  },
 });
